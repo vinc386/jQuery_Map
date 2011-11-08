@@ -1,0 +1,116 @@
+body{
+	background-color:#aab;
+}
+a{
+	color:#baa;
+}
+.city_detail_container{
+	display: none;
+}
+.grey{
+	color:#eee;
+}
+.map_container{
+ 	font-family: Arial, Helvetica, sans-serif;
+	color:#eef;
+	font-size:12px;
+	width:760px;
+	height:325px;
+	float:right;
+	margin: 0px 0px 0px 20px;
+	background-image:url(../images/template/map.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	position:relative;
+} 
+.map_contianer .h2{
+	margin: 0px 0px 0px 0px;
+	font-size: 18px;
+}
+.city_detail h3 {
+	margin: 0px 0px 12px 0px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.map_container a.dot{
+	background-image:url(../images/template/dots.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	width:20px;
+	height:20px;
+	display:block;
+	cursor: pointer;
+	position: absolute;
+}
+.map_container a.dot:hover{
+	background-position:0px -20px;
+}
+
+.map_container a.dot.selected{
+	background-position:0px -40px;
+}
+
+.map_container .continent_form{
+	position: absolute;
+	top: 265px;
+	left: 30px;
+}
+
+.map_container .detail_container{
+	position:absolute;
+	top: 35px;
+	left: 490px;
+	height: 240px;
+	width: 240px;
+}
+
+.map_container .city_detail{
+	position:absolute;
+/*	background-color:#aaa;*/
+	padding: 5px 0px 0px 5px;
+	top:10px;
+	left:12px;
+	bottom:0px;
+	right:0px;
+	width:230px;
+/*	box-shadow: 3px -3px 5px #ddd;*/
+	border-radius:5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.map_contianer .city_detail .city_info{
+	float:left;
+	width: 130px;
+}
+.map_container .city_detail .city_photo{
+	float: left;
+	margin: 5px 10px 0px 5px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+	box-shadow: 2px 2px 5px #ddd;
+	-webkit-box-shadow: 2px 2px 5px #ddd;
+	-moz-box-shadow: 2px 2px 5px #ddd;
+	-webkit-border-radius: 8px;
+}
+.map_container .clear_both{
+	clear:both;
+	line-height:1px;
+}
+
+.footer{
+/*	clear:both;*/
+	text-align: center;
+	background:#eef;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	padding: 5px 0px 5px 0px;
+	width:100%;
+	font-size:12px;
+}
+
+/*.map_container .city_name_tag{
+	position:;
+}*/
